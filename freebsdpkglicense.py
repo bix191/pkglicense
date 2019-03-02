@@ -43,8 +43,8 @@ def getAllInfo(pkgInfo):
         getAllInfo(nextPkgInfo)
         
 if len(sys.argv)!=2 :
-    print("usage: pkglicense pkgname")
-    exit
+    print("usage: freebsdpkglicense pkgname")
+    exit()
     
 pkgname=sys.argv[1].strip()
 
